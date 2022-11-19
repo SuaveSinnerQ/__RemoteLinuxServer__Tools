@@ -1,0 +1,44 @@
+I. RDP (remote desktop protocol) 
+    -gives user a gui to connect via network connection
+    -FreeRDP (free imp of RDP)
+    -works in a client/server model (remote/users must have rdp software installed
+
+ii. VNC (virtual network computing) 
+    -server-client protocol --permits user accounts to remotely connect & control distance system
+        by gui
+iii. Zoho Assist
+    -remote software permits access & support Linux desktops servers w/o remote cxn protocols like: RDP
+    VNC, or SSH
+    -2factor auth
+
+Apps: software for accessing remotely
+Client/Server App:
+1. TigerVNC
+      -permits users to launch & interact w/graphical apps on remote machines
+      -implement TLS encryption
+2. RealVNC (devel screen sharing tech w/products: VNC Connect & VNC Viewer
+    features: admin unattended sys't 
+              -get VNC to connect for free for home use
+              -subscription req for pro & ent
+3. TeamViewer
+    -good for personal; premium for business users
+    -file transfer, remote deskop sharing
+4. REmmina (written in GTK+3)
+    -for sysadmin & travelers
+    -supports multiple network protocols: RDP, VNC, NX XDMCP & SSH
+5. NoMachine
+    -offers a secure personal server
+6. Apache Guacamole
+    -supports std protocols: VNC, RDP, SSH
+    -employs HTML5 web ie web browsers
+7. XRDP (based on FreeRDP & desktop)
+    -integrates w/LikwiseOpen 
+    -log into Ubuntu server via RDP w/active dir username/pw
+    -needs redacting
+8. FreeNX
+    -a secure (SSH-based) client/server sys't
+    -core lib provided by NoMachine
+    -Distro: deb: wiki.debian.org/freenx
+             CentOS: wiki.centos.org/HowTos/FreeNX
+             Ubutu: help.ubuntu.com/community/FreeNX
+             
